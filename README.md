@@ -1,10 +1,11 @@
 Bienvenue à toi jeune moussaillion !
 
-Tu dois certainement être là  parce que THP t'as confié le devoir... non je dirai même l'honneur de corriger notre groupe.
-Enfin bref, nous avons créer une application de growth-hacking rien que pour toi. Oui nous avons fait ça pour toi car nous t'aimons.Donc si tu es chaud pour un plan cam contact nous <3
+<p> Tu dois certainement être là  parce que THP t'as confié le devoir... non je dirai même l'honneur de corriger notre groupe.
+Enfin bref, nous avons créer une application de growth-hacking rien que pour toi. <p> 
+ <p> Oui nous avons fait ça pour toi car nous t'aimons.Donc si tu es chaud pour un plan cam contact nous <3 <p>
 
 
-#Mode opératoire
+# Mode opératoire
 - $ git clone
 
 - $ bundle install --without production
