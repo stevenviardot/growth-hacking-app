@@ -1,0 +1,293 @@
+.blocktop {
+  margin-bottom: 70px;
+}
+
+.card {
+  padding: 40px 25px;
+}
+
+.mainLp {
+  background-image: url('../images/code.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@-webkit-keyframes stripe-slide {
+  0% {
+    background-position: 0% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+@keyframes stripe-slide {
+  0% {
+    background-position: 0% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+.btn {
+  overflow: visible;
+  margin-top: 50px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  line-height: normal;
+  cursor: pointer;
+  -moz-user-select: text;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 16px 36px 22px;
+  background-color: #fff;
+  color: #666;
+  border: 2px solid #666;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  transition: all .5s ease;
+}
+.btn::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+.btn--stripe {
+  overflow: hidden;
+  position: relative;
+}
+.btn--stripe:after {
+  content: '';
+  display: block;
+  height: 7px;
+  width: 100%;
+  background-image: repeating-linear-gradient(45deg, #666, #666 1px, transparent 2px, transparent 5px);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-top: 1px solid #666;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-size: 7px 7px;
+}
+.btn--stripe:hover {
+  background-color: #666;
+  color: #fff;
+  border-color: #000;
+}
+.btn--stripe:hover:after {
+  background-image: repeating-linear-gradient(45deg, #fff, #fff 1px, transparent 2px, transparent 5px);
+  border-top: 1px solid #000;
+  -webkit-animation: stripe-slide 12s infinite linear forwards;
+          animation: stripe-slide 12s infinite linear forwards;
+}
+.btn--large {
+  width: 50%;
+}
+.btn--radius {
+  border-radius: 36px;
+}
+body#LoginForm{ background-image:url("https://hdwallsource.com/img/2014/9/blur-26347-27038-hd-wallpapers.jpg"); background-repeat:no-repeat; background-position:center; background-size:cover; padding:10px;}
+
+.form-heading { color:#fff; font-size:23px;}
+.panel h2{ color:#444444; font-size:18px; margin:0 0 8px 0;}
+.panel p { color:#777777; font-size:14px; margin-bottom:30px; line-height:24px;}
+.login-form .form-control {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}
+.main-div {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 2px;
+  margin: 10px auto 30px;
+  max-width: 38%;
+  padding: 50px 70px 70px 71px;
+}
+
+.login-form .form-group {
+  margin-bottom:10px;
+}
+.login-form{ text-align:center;}
+.forgot a {
+  color: #777777;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.login-form  .btn.btn-primary {
+  background: #f0ad4e none repeat scroll 0 0;
+  border-color: #f0ad4e;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+}
+.forgot {
+  text-align: left; margin-bottom:30px;
+}
+.botto-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin: auto;
+}
+.login-form .btn.btn-primary.reset {
+  background: #ff9900 none repeat scroll 0 0;
+}
+.back { text-align: left; margin-top:10px;}
+.back a {color: #444444; font-size: 13px;text-decoration: none;}
+s
+.nav-item {
+  padding-right: 25px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  background: black;
+  color: white;
+  right: 0;
+  left: 0;
+  padding-top: 15px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+
+
+
+
+
+ */
+
+
+ body {
+   font-family: 'Lato';
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-family: 'Catamaran';
+   font-weight: 800 !important;
+ }
+
+ .btn-xl {
+   text-transform: uppercase;
+   padding: 1.5rem 3rem;
+   font-size: 0.9rem;
+   font-weight: 700;
+   letter-spacing: 0.1rem;
+ }
+
+ .bg-black {
+   background-color: #000 !important;
+ }
+
+ .rounded-pill {
+   border-radius: 5rem;
+ }
+
+ .navbar-custom {
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   background-color: rgba(0, 0, 0, 0.7);
+ }
+
+ .navbar-custom .navbar-brand {
+   text-transform: uppercase;
+   font-size: 1rem;
+   letter-spacing: 0.1rem;
+   font-weight: 700;
+ }
+
+ .navbar-custom .navbar-nav .nav-item .nav-link {
+   text-transform: uppercase;
+   font-size: 0.8rem;
+   font-weight: 700;
+   letter-spacing: 0.1rem;
+ }
+
+ header.masthead {
+   position: relative;
+   overflow: hidden;
+   padding-top: calc(7rem + 72px);
+   padding-bottom: 7rem;
+   background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: cover;
+ }
+
+ header.masthead .masthead-content {
+   z-index: 1;
+   position: relative;
+ }
+
+ header.masthead .masthead-content .masthead-heading {
+   font-size: 4rem;
+ }
+
+ header.masthead .masthead-content .masthead-subheading {
+   font-size: 2rem;
+ }
+
+ .bg-primary {
+   background-color: #ee0979 !important;
+ }
+
+ .btn-primary {
+   background-color: #ee0979;
+   border-color: #ee0979;
+ }
+
+ .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+   background-color: #bd0760 !important;
+   border-color: #bd0760 !important;
+ }
+
+ .btn-primary:focus {
+   box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+ }
+
+ .btn-secondary {
+   background-color: #ff6a00;
+   border-color: #ff6a00;
+ }
+
+ .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+   background-color: #cc5500 !important;
+   border-color: #cc5500 !important;
+ }
+
+ .btn-secondary:focus {
+   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+ }

@@ -2,12 +2,10 @@
   margin-bottom: 70px;
 }
 
-.card {
+.box {
   padding: 40px 25px;
-}
-
-.mainLp {
-  background-image: url('code.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: wheat;
+  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  color: white;
+  border: solid 3px #343a40;
 }
