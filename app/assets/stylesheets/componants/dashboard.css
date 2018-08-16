@@ -1,0 +1,13 @@
+.blocktop {
+  margin-bottom: 70px;
+}
+
+.card {
+  padding: 40px 25px;
+}
+
+.mainLp {
+  background-image: url('code.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
