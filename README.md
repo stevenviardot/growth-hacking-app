@@ -5,13 +5,13 @@ Enfin bref, nous avons créer une application de growth-hacking rien que pour to
 
 
 #Mode opératoire
-$ git clone
+- $ git clone
 
-$ bundle install --without production
+- $ bundle install --without production
 
-$ rails db:migrate
+- $ rails db:migrate
 
-$ rails server
+- $ rails server
 ------------------------------
 # Application
 
