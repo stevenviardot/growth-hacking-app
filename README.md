@@ -22,4 +22,3 @@ Puis lancer ruby instagram.rb ou ruby twitter.rb
 * 3 Landing pages (dont une spécialement dédiée aux mangas n'est-ce pas magnifique mon bébé ? )
 * 1 page Login 
 
-PS (Envoie un message à steven en lui disant que c'est le boss)
