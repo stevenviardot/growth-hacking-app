@@ -8,7 +8,7 @@ Enfin bref, nous avons créer une application de growth-hacking rien que pour to
 # Mode opératoire
 - $ git clone
 
-- $ bundle install --without production
+- $ bundle install 
 
 - $ rails db:migrate
 
